@@ -5,7 +5,7 @@ import NavBar from './pages/home/busqueda/NavBar'
 import '../styles/PagePrincipal.css'
 
 const ClimaApp = () => {
-    const [ciudad, setCiudad] = useState('')
+    const [ciudad, setCiudad] = useState('madrid')
 
     if (ciudad != '') {
       localStorage.setItem('ciudad', ciudad)
